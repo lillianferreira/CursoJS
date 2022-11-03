@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meu primeiro programa...</title>
+    <style>
+        body {
+            background-color: rgba(202, 148, 130, 0.63);
+            color: white; /* Comentário em CSS */
+            font: normal 20pt Arial;
+        }
+
+        h1 {
+            background-color: rgba(216, 110, 110, 0.637);
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            font-style: italic;
+            color: blueviolet;
+        }
+    </style>
+</head>
+<body>
+    <h1>Olá, mundo!</h1> <!-- Comentário em HTML -->
+    <p>Já me livrei da maldição!!!</p>
+    <script>
+        var n1 = Number(window.prompt('Digite um número: ')) 
+        var n2 = Number(window.prompt('Digite outro número: '))
+        var s = n1 + n2
+        window.alert(`A soma entre ${n1} e ${n2} é igual a ${s}`) // Concatenação
+
+        // var n1 = Number.parseFloat(window.prompt('Digite um número: ')) // string
+        // var n2 = Number.parseFloat(window.prompt('Digite outro número: ')) // string
+        // var s = n1 + n2
+        // window.alert('A soma dos valores é ' + s) // Concatenação
+        // (number + number) para adição
+        // (string + string) para concatenação
+
+        // string → number
+        // var n1 = Number(window.prompt('Digite um número: ')) // number
+        // var n2 = Number(window.prompt('Digite outro número: ')) // number
+        // var s = n1 + n2
+        // window.alert('A soma dos valores é ' + s) // Concatenação
+
+        //  number → string
+        // var n1 = string(window.prompt('Digite um número: ')) // string
+        // var n2 = string(window.prompt('Digite outro número: ')) // string
+        // var s = n1 + n2
+        // window.alert('A soma dos valores é ' + s) // Concatenação
+
+        //  ou
+        // number → string
+        // var n1 = n.toString(window.prompt('Digite um número: ')) // string
+        // var n2 = n.toString(window.prompt('Digite outro número: ')) // string
+        // var s = n1 + n2
+        // window.alert('A soma dos valores é ' + s) // Concatenação
+    </script>
+</body>
+</html>
